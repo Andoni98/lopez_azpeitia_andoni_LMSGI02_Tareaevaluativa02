@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>CONTACTAR</title> <!-- Este será el título -->
+        <link rel="stylesheet" href="estilos/estilo.css"> <!--Uso de fichero .css-->
+    </head>
+    <body>
+        <h1>CONTACTAR</h1>
+        <article class="formulario"><!--Formulario con envío de respuestas a mi email-->
+            <form action="mailto:andlopez@birt.eus" method="post">
+                    <label for="fname">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre"><br>
+                    <label for="lname">Apellido:</label><br>
+                    <input type="text" id="apellido" name="apellido"><br>
+                    <label for="motivo">Motivo de contacto:</label>
+                    <select name="motivo" id="motivo">
+                        <option value="consulta">Consulta</option>
+                        <option value="queja">Queja</option>
+                    </select><br>
+                    <label for="lname">Mensaje:</label><br>
+                    <input class="campo" type="text" id="mensaje" name="mensaje"><br>
+                    <input type="submit" value="Enviar">
+            </form>
+        </article>
+        <h3>MENU</h3>
+        <nav><!--Menú de navegación con enlaces a las diferentes páginas-->
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="categorias.html">CATEGORÍAS</a></li>
+                <li><a href="noticias.html">NOTICIAS</a></li>
+                <li><a href="contactar.html">CONTACTAR</a></li>
+            </ul>
+        </nav>
+        <footer><!--Mensaje de copy right-->
+            <p>Autoría y licencias: Página web realizada por Andoni López Azpeitia con fines educativos. Todos los derechos de las imágenes están reservados y pertenecen a sus autores.</p>
+        </footer>
+    </body>
